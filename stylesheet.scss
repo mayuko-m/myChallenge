@@ -15,11 +15,24 @@ header{
   justify-content: space-between;
   height: 8rem;
   margin: 0 21.3rem;
+  .header-logo{
+    height: 4rem;
+  }
 }
 
 
-.header-logo{
-  height: 4rem;
+
+@media (max-width: 480px){
+  header{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: initial;
+    text-align: center;
+    .header-logo{
+      margin-bottom: 2rem;
+    }
+  }
 }
 
 ///////////header右上のナビバー/////////// 
@@ -35,6 +48,7 @@ header{
   }
 }
   
+
 /////////main visual////////
   .bg-img{
   background-image: url(img/austin-distel-wawEfYdpkag-unsplash.png);
@@ -123,6 +137,18 @@ header{
 .box-right{
   @include box-card;
 }
+
+
+@media (max-width: 480px){
+  .box-group{
+    display: block;
+    .box-center{
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+  }
+}
+
 
 //////////////////// Just Continue////////////////////////////
 .seek-img{
