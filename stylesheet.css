@@ -46,6 +46,12 @@ header .header-logo {
   line-height: 8rem;
 }
 
+@media (max-width: 480px) {
+  .nav ul {
+    margin-left: 1rem;
+  }
+}
+
 .bg-img {
   background-image: url(img/austin-distel-wawEfYdpkag-unsplash.png);
   background-size: cover;

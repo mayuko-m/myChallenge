@@ -47,7 +47,12 @@ header{
     line-height: 8rem;
   }
 }
-  
+
+@media (max-width: 480px){
+    .nav ul{
+      margin-left: 1rem;
+    }
+  }
 
 /////////main visual////////
   .bg-img{
